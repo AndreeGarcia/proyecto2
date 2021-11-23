@@ -1,0 +1,16 @@
+export const homeObjTwo = {
+  id: "espacioideal",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Espacios",
+  headline: "No sabes por dónde empezar?",
+  description: "Aquí te recomendamos unos espacios muy bien valorados",
+  buttonLabel: "Buscar espacios",
+  imgStart: false,
+  // img: require("../../images/svg-1.svg"),
+  // alt: "festivity",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
