@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const Container = styled.div`
+export const ContainerGrande = styled.div`
   min-height: 692px;
   position: fixed;
   bottom: 0;
@@ -52,7 +52,7 @@ export const FormContent = styled.div`
 
 export const Form = styled.form`
   background: #010101;
-  max-width: 400px;
+  max-width: 900px;
   height: auto;
   width: 100%;
   z-index: 1;
@@ -75,6 +75,15 @@ export const FormH1 = styled.h1`
 `;
 
 export const FormLabel = styled.label`
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #fff;
+`;
+
+export const FormLabelPapa = styled.label`
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   margin-bottom: 8px;
   font-size: 14px;
   color: #fff;

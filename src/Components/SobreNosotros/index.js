@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+import { Button2 } from "../ButtonElements";
 import {
   InfoContainer3,
   TextWrapper,
@@ -32,8 +32,8 @@ const AboutUs = ({
           <Heading lightText={lightText}>{headline}</Heading>
           <Subtitle darkText={darkText}>{description}</Subtitle>
           <BtnWrap>
-            <Button
-              to="home"
+            <Button2
+              to="/spotlight"
               smooth={true}
               duration={500}
               spy={true}
@@ -44,7 +44,7 @@ const AboutUs = ({
               dark2={dark2 ? 1 : 0}
             >
               {buttonLabel}
-            </Button>
+            </Button2>
           </BtnWrap>
         </TextWrapper>
       </InfoContainer3>

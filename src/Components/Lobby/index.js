@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "../ButtonElements";
+
 //import { createBrowserHistory as history } from "history";
 
 import Video from "../../video/bg.mp4";
@@ -34,7 +35,7 @@ function Lobby() {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to="/signin"
+            to="espacioideal"
             smooth={true}
             duration={500}
             spy={true}

@@ -1,10 +1,11 @@
 import React from "react";
+import A123 from "../Components/Buscador/index";
 
 function Spotlight() {
   return (
-    <div>
-      <h1> Buscador </h1>
-    </div>
+    <>
+      <A123 />
+    </>
   );
 }
 
